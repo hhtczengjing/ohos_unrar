@@ -1,0 +1,14 @@
+{
+  "name": "@devzeng/unrar",
+  "version": "0.1.0",
+  "description": "unrar library for HarmonyOS.",
+  "keywords": ["unrar"],
+  "homepage": "https://github.com/hhtczengjing/ohos_unrar",
+  "repository": "https://github.com/hhtczengjing/ohos_unrar.git",
+  "main": "Index.ets",
+  "author": "zengjing <hhtczengjing@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "libunrar.so": "file:./src/main/cpp/types/libunrar"
+  }
+}
