@@ -10,6 +10,10 @@ endif()
 
 include_directories(${NATIVERENDER_ROOT_PATH} ${NATIVERENDER_ROOT_PATH}/include)
 
+# 日志打印配置
+add_definitions( "-DLOG_DOMAIN=0xd0d0" )
+add_definitions( "-DLOG_TAG=\"unrar\"" )
+
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DLITTLE_ENDIAN")
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -fvisibility=hidden")
 
