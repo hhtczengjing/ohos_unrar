@@ -22,7 +22,7 @@ export class UnrarKit {
    * @returns 解压结果
    */
   static extractSync(path: string, dest: string, password?: string): void {
-    return unrar.extractSync(path, dest, password);
+    unrar.extractSync(path, dest, password);
   }
 
   /**

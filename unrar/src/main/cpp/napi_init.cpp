@@ -5,7 +5,7 @@
 
 #define _UNIX
 #define NM  2048
-#define LOG(...) OH_LOG_Print(LOG_APP, LOG_ERROR, LOG_DOMAIN, "[unrar]", __VA_ARGS__);
+#define LOG(...) OH_LOG_Print(LOG_APP, LOG_ERROR, LOG_DOMAIN, LOG_TAG, __VA_ARGS__);
 using namespace std;
 
 struct ExtractCallBack {
