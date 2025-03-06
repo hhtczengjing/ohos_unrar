@@ -2,7 +2,7 @@
   "name": "@devzeng/unrar",
   "version": "0.1.0",
   "description": "unrar library for HarmonyOS.",
-  "keywords": ["unrar"],
+  "keywords": ["unrar", 'extract', 'rar'],
   "homepage": "https://github.com/hhtczengjing/ohos_unrar",
   "repository": "https://github.com/hhtczengjing/ohos_unrar.git",
   "main": "Index.ets",
